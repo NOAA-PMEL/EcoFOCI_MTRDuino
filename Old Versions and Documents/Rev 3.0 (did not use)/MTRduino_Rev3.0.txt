@@ -1,0 +1,28 @@
+Partlist exported from C:/Users/langis/Documents/eagle/MTRDuino/rev3.0/MTRduino_Rev3.0.sch at 11/17/2015 2:46:42 PM
+
+Part Value         Device          Package            Description                                            MPN             OC_FARNELL OC_NEWARK PACKAGE  SPICEMODEL SPICEPREFIX SUPPLIER         
+B1   2x AA BATT    BATT_AA2        BATT_AA2                                                                                                                                                        
+B2   Coin Cell     CR1220SMT       CR1220-SMD         CR1216/CR1220/CR1225 12mm 3V lithium coin cell                                                                                               
+C1   0.1           C-USC0603       C0603              CAPACITOR, American symbol                                                                                                                   
+C2   0.1           C-USC0603       C0603              CAPACITOR, American symbol                                                                                                                   
+C3   4.7           C-USC0603       C0603              CAPACITOR, American symbol                                                                                                                   
+C4   0.1           C-USC0603       C0603              CAPACITOR, American symbol                                                                                                                   
+C5   0.015 C0G     C-EUC0603       C0603              CAPACITOR, European symbol                                                                                                                   
+D1   Small Sig     DIODESOD-323F   SOD-323F           Diode                                                                                                                                        
+D2   Small Sig     DIODESOD-323F   SOD-323F           Diode                                                                                                                                        
+JP1  MicroA        PINHD-1X17      1X17               PIN HEADER                                                                                                                                   
+JP2  MicroB        PINHD-1X17      1X17               PIN HEADER                                                                                                                                   
+JP4  PowerBoost    PINHD-1X6       1X06               PIN HEADER                                                                                                                                   
+R1   10K           R-US_R0603      R0603              RESISTOR, American symbol                                                                                                                    
+R2   10K           R-US_R0603      R0603              RESISTOR, American symbol                                                                                                                    
+R3   10K           R-US_R0603      R0603              RESISTOR, American symbol                                                                                                                    
+R4   10K           R-US_R0603      R0603              RESISTOR, American symbol                                                                                                                    
+R5   49.9K         RR3216          R3216              RESISTOR, European symbol                                                                            NONE       R                            
+R6   49.9K         RR3216          R3216              RESISTOR, European symbol                                                                            NONE       R                            
+R7   49.9K         RR3216          R3216              RESISTOR, European symbol                                                                            NONE       R                            
+TR1  50K           THERMISTOR_R-5  R-5                Thermo Resistor                                                                                                                              
+U1   ADS1100       ADS1100A0IDBVT  SOT95P280X145-6N   Self-Calibrating, 16-Bit ANALOG-TO-DIGITAL CONVERTER   ADS1100A0IDBVT  1135959    20H0708   SOT-23-6                        Texas Instruments
+U2   NC7S14        1P1G14MDBVREPG4 SOT95P280X145-5N   SINGLE SCHMITT-TRIGGER INVERTER                        1P1G14MDBVREPG4 -          56P2415   SOT-23-5                        Texas Instruments
+U3   MAX6126       MAX6126         SOIC127P600X175-8N                                                                                                                                              
+U4   DS3234SN      DS3234          DS3234             SPI RTC module with battery backup and internal clock.                                                                                       
+U5   USD-SOCKETNEW USD-SOCKETNEW   MICRO-SD-SOCKET-PP microSD Socket                                                                                                                               

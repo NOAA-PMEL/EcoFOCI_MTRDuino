@@ -1,0 +1,104 @@
+ATLAS Lab Calibration Parameters
+04-14-2015, 17:13:05
+
+--------------- Files ---------------
+SYSTEM_DEVICES = ATLAB.DEV 
+SYSTEM_USERS = ATLAB.USR 
+SYSTEM_ERRORS = ERRORS.LOG 
+
+REMOTE_COMMANDS = ATLAB.CMD 
+REMOTE_USERS = USER.LOG 
+REMOTE_COMMAND_LOG = COMMANDS.LOG 
+
+LAST_CALIBRATION = TB115104.CAL 
+
+------------ Test Setup -------------
+TEST_TYPE =  1 
+NUM_SET_POINTS =  7 
+DEFAULT_EQUIL_TIME =  0.20 
+DEFAULT_SETPOINT =   1.000 
+EQUILIBRIUM_PRECISION = 0.01000 
+EQUILIBRIUM_SIGMA = 0.01000 
+READINGS_TO_LOG =  60 
+LOG_INTERVAL =  15 
+MONITOR_READINGS =  15 
+ALLOW_REMOTE =  0 
+OPERATOR = SLW 
+
+Notes: [#,value,time,start,stop,status,]  (commas required!!)
+       The data MUST BE AS SHOWN after the equals sign!!
+
+SETPOINT_DATA=
+  0, 0,  1.000, 0.20,    0,    0,  0,
+  1, 0,  1.000, 0.50,39587,41399,  8,
+  2, 0,  2.000, 0.50,42843,44656,  8,
+  3, 0,  3.000, 0.50,46114,47926,  8,
+  4, 0,  4.000, 0.50,49387,51199,  8,
+  5, 0,  5.000, 0.50,52630,54442,  8,
+  6, 0,  6.000, 0.50,55890,57702,  8,
+  7, 0,  7.000, 0.50,59168,60980, -2,
+
+PRESSURE_DATA=
+  0,  0.000, 0.10,    0,    0,  0,
+  1,  0.000, 0.10,    0,    0, -3,
+  2,  0.000, 0.10,    0,    0, -3,
+  3,  0.000, 0.10,    0,    0, -3,
+  4,  0.000, 0.10,    0,    0, -3,
+  5,  0.000, 0.10,    0,    0, -3,
+  6,  0.000, 0.10,    0,    0, -3,
+  7,  0.000, 0.10,    0,    0, -3,
+
+SENSOR_DATA=
+ 1,YES,  3251,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 2,NO ,  3282,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 3,NO ,  3285,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 4,NO ,  3312,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 5,NO ,  3316,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 6,NO ,  3318,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 7,NO ,  3321,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 8,NO ,  3327,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 9,NO ,  3332,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+10,NO ,  4022,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+11,NO ,  4023,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+12,NO ,  4036,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+13,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+14,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+15,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+16,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+17,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+18,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+19,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+20,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+21,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+22,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+23,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+24,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+25,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+26,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+27,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+28,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+29,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+30,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+
+ #,use,ser.no,ser.no,power source,   parent   ,measure   ,chan,port,
+  ,   ,      ,      ,or sens type,   device   ,variable  ,    ,    ,
+Options:
+ #,NO ,      ,      ,POWER_SUPPLY,MULTIMETER  ,VOLTS     , 0-9,  >0,
+  ,YES,      ,      ,NONE        ,FREQ_COUNTER,RESISTANCE, for,=ser,
+  ,   ,      ,      ,(or blank)  ,SERIAL      ,FREQUENCY ,GPIB,  =0,
+  ,   ,      ,      ,(or number) ,            ,COUNTS    ,    ,GPIB,
+
+CHILLER_DATA=
+ 34, 28, 15,
+ 31, 25, 13,
+ 28, 21, 10,
+ 25, 17,  8,
+ 22, 14,  6,
+ 19, 10,  4,
+ 16,  7,  2,
+ 13,  3,  0,
+ 10, -1, -5,
+  7, -5,-10,
+  4, -9,-15,
+  1,-12,-15,
+ -2,-14,-15,

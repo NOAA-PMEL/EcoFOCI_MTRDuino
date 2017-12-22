@@ -1,0 +1,84 @@
+Circuit: * \\pesto\oerd\langis\MTR\Rev 5.2\Documentation\Electrical\Analog Circuit LT Spice Model\LT Spice Model - MTR-Duino Temp Circuit - Rev 5.2.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+vernier = 0.5
+Gmin = 2.5711e-006
+vernier = 0.25
+vernier = 0.333333
+Gmin = 1.37856e-006
+vernier = 0.444444
+vernier = 0.592592
+Gmin = 4.73545e-007
+vernier = 0.790123
+Gmin = 9.23953e-008
+vernier = 1
+Gmin = 9.92087e-009
+Gmin = 1.06525e-009
+Gmin = 1.1438e-010
+Gmin = 1.22814e-011
+Gmin = 1.31871e-012
+Gmin = 1.41595e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u3:3      d:u3:2      d:u3:6      d:u3:5      d:u3:4
+Model:  u3:dbias    u3:dbias      u3:yd       u3:yu       u3:xd
+Id:     -1.20e-08   -1.20e-08    1.42e-14   -1.42e-14    2.27e-06
+Vd:     -4.96e+00   -4.95e+00    7.12e-03   -7.12e-03   -4.66e-02
+Req:     1.00e-03    1.00e-03    1.00e-12    1.00e-12    1.00e-03
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u3:1      d:u2:3      d:u2:2      d:u2:6      d:u2:5
+Model:    u3:xu     u2:dbias    u2:dbias      u2:yd       u2:yu
+Id:     -5.45e-11   -1.20e-08   -1.20e-08    1.68e-14   -1.68e-14
+Vd:     -4.95e+00   -4.96e+00   -4.95e+00    8.40e-03   -8.40e-03
+Req:     1.00e-11    1.00e-03    1.00e-03    1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:4      d:u2:1      d:u1:1
+Model:    u2:xd       u2:xu       u1:y
+Id:      2.33e-06   -5.45e-11   -1.25e-07
+Vd:     -4.57e-02   -4.95e+00   -1.25e+00
+Req:     1.00e-03    1.00e-11    1.00e-07
+CAP:     0.00e+00    0.00e+00    0.00e+00
+
+                        --- VDMOSFET Transistors ---
+Name:        m:u3:2      m:u3:1      m:u2:2      m:u2:1      m:u1:1
+Model:        u3:p        u3:n        u2:p        u2:n        u1:n
+Id:         -3.02e-04    3.02e-04   -3.08e-04    2.94e-04    1.32e-05
+Vgs:        -7.12e-03   -7.12e-03   -8.40e-03   -8.40e-03    2.30e-02
+Vds:        -5.38e-02    4.95e+00   -5.41e-02    4.95e+00    1.25e+00
+Vth:         1.00e-01   -1.00e-01    1.00e-01   -1.00e-01    0.00e+00
+Gm:          3.76e-03    6.50e-03    3.79e-03    6.41e-03    1.15e-03
+Gds:         3.74e-03    0.00e+00    3.80e-03    0.00e+00    0.00e+00
+Cgs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbody:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+
+
+Date: Tue Dec 12 13:37:41 2017
+Total elapsed time: 7.900 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 36
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 20
+fillins = 28
+solver = Normal
+

@@ -1,0 +1,112 @@
+ATLAS Lab Calibration Parameters
+03-10-2017, 08:25:36
+
+--------------- Files ---------------
+SYSTEM_DEVICES = ATLAB.DEV 
+SYSTEM_USERS = ATLAB.USR 
+SYSTEM_ERRORS = ERRORS.LOG 
+
+REMOTE_COMMANDS = ATLAB.CMD 
+REMOTE_USERS = USER.LOG 
+REMOTE_COMMAND_LOG = COMMANDS.LOG 
+
+LAST_CALIBRATION = TB117068.CAL 
+
+------------ Test Setup -------------
+TEST_TYPE =  1 
+NUM_SET_POINTS =  11 
+DEFAULT_EQUIL_TIME =  0.50 
+DEFAULT_SETPOINT =   1.000 
+EQUILIBRIUM_PRECISION = 0.01000 
+EQUILIBRIUM_SIGMA = 0.01000 
+READINGS_TO_LOG =  60 
+LOG_INTERVAL =  60 
+MONITOR_READINGS =  60 
+ALLOW_REMOTE =  0 
+OPERATOR = PDP 
+
+Notes: [#,value,time,start,stop,status,]  (commas required!!)
+       The data MUST BE AS SHOWN after the equals sign!!
+
+SETPOINT_DATA=
+  0, 0,  1.000, 0.50,    0,    0,  3,
+  1, 0, -2.000, 1.00,22300,25938,  8,
+  2, 0, -1.000, 1.00,30609,34248,  8,
+  3, 0,  0.000, 1.00,38981,42621,  8,
+  4, 0,  1.000, 1.00,47295,50934,  8,
+  5, 0,  2.000, 1.00,55609,59248,  8,
+  6, 0,  3.000, 1.00,63985,67624,  8,
+  7, 0,  4.000, 1.00,72300,75939,  8,
+  8, 0,  5.000, 1.00,80615,84253,  8,
+  9, 0,  6.000, 1.00, 2608, 6243,  8,
+ 10, 0,  7.000, 1.00,10916,14555,  8,
+ 11, 0,  8.000, 2.00,19229,26448, -2,
+
+PRESSURE_DATA=
+  0,  0.000, 0.10,    0,    0,  0,
+  1,  0.000, 0.10,    0,    0, -3,
+  2,  0.000, 0.10,    0,    0, -3,
+  3,  0.000, 0.10,    0,    0, -3,
+  4,  0.000, 0.10,    0,    0, -3,
+  5,  0.000, 0.10,    0,    0, -3,
+  6,  0.000, 0.10,    0,    0, -3,
+  7,  0.000, 0.10,    0,    0, -3,
+  8,  0.000, 0.10,    0,    0, -3,
+  9,  0.000, 0.10,    0,    0, -3,
+ 10,  0.000, 0.10,    0,    0, -3,
+ 11,  0.000, 0.10,    0,    0, -3,
+
+SENSOR_DATA=
+ 1,YES,    11,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 2,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 3,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 4,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 5,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 6,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 7,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 8,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+ 9,YES,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+10,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+11,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+12,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+13,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+14,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+15,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+16,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+17,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+18,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+19,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+20,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+21,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+22,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+23,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+24,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+25,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+26,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+27,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+28,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+29,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+30,NO ,     0,     0,NONE        ,MULTI_METER ,RESISTANCE,   0,   0,
+
+ #,use,ser.no,ser.no,power source,   parent   ,measure   ,chan,port,
+  ,   ,      ,      ,or sens type,   device   ,variable  ,    ,    ,
+Options:
+ #,NO ,      ,      ,POWER_SUPPLY,MULTIMETER  ,VOLTS     , 0-9,  >0,
+  ,YES,      ,      ,NONE        ,FREQ_COUNTER,RESISTANCE, for,=ser,
+  ,   ,      ,      ,(or blank)  ,SERIAL      ,FREQUENCY ,GPIB,  =0,
+  ,   ,      ,      ,(or number) ,            ,COUNTS    ,    ,GPIB,
+
+CHILLER_DATA=
+ 34, 28, 15,
+ 31, 25, 13,
+ 28, 21, 10,
+ 25, 17, -3,
+ 22, 14,  6,
+ 19, 10,  4,
+ 16,  7,  2,
+ 13,  3,  0,
+ 10, -1, -5,
+  7, -5,-10,
+  4, -9,-15,
+  1,-12,-15,
+ -2,-14,-15,
